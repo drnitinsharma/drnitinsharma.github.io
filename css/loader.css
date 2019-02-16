@@ -241,7 +241,7 @@
 }
 
 
-div.clearfix {
+div.clearfix.kammy {
     display: none;
 }
 .clearfix.footer {
