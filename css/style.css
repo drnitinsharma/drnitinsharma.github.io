@@ -1145,15 +1145,15 @@ body {
     padding: 3.1269em 0;
 }
 
-#sponsor-list img {
+.sponsor-list img {
     opacity: 0.5;
 }
 
-#sponsor-list img:hover {
+.sponsor-list img:hover {
     opacity: 1.0;
 }
 
-#sponsor-list {
+.sponsor-list {
     margin-top: 15px;
     margin-bottom: 40px;
 }
