@@ -76,7 +76,8 @@ $(document).ready(function () {
 
     var mapOptions = {
         // center: new google.maps.LatLng(19.146613, 72.939044),
-        center: new google.maps.LatLng(19.266423, 72.967034),
+        // center: new google.maps.LatLng(19.266423, 72.967034),
+        center: new google.maps.LatLng(19.2063, 72.8746),
         zoom: 15,
         mapTypeId: google.maps.MapTypeId.HYBRID
     }
@@ -106,7 +107,7 @@ $(document).ready(function () {
     });
 
     $('.contact-details .social-media [data-toggle="tooltip"]').tooltip();
-    $("#sponsor-list").owlCarousel({
+    $(".sponsor-list").owlCarousel({
 
         autoPlay: 3000, //Set AutoPlay to 3 seconds
         stopOnHover: true,
